@@ -20,3 +20,7 @@ Start with Level 1 and work through it in order.
 ## Questions?
 
 Ask your mentor, or open an issue on this repo.
+
+## About Radicle
+
+Radicle is an Italian software company specialized in Oracle technologies. Learn more at [www.radicle.it](https://www.radicle.it).
