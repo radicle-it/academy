@@ -1,26 +1,88 @@
-Questo è un repository pubblico dell'azienda Radicle, una realtà italiana specializzata in soluzioni Oracle.
+# Brief originale: repository formativo di Radicle
 
-Questo repo nasce con l'idea di fornire un punto di aggregazione di tutto il materiale interno che viene utilizzando e condiviso dall'azienda per la formazione.
-Il repository ha anche lo scopo di guidare neo-assunti o tutti coloro che piubblicamente su internet vogliono sviluppare competenze traversali sulla tecnologia oracle, in particolare ORacle DB, SQL, PL/SQL, APEX. 
+## Contesto
 
-Mi sono immaginato una struttura gerarchica dove poter elencare: lezioni, lab, tutorial. esercizi, link a risorse, codice di esempio, etc.
+Radicle è una realtà italiana specializzata in soluzioni Oracle. Questo repository pubblico nasce come **punto di aggregazione** del materiale formativo utilizzato e condiviso internamente dall'azienda.
 
-La mia idea è che i "trainer" pubblicano tutto sul branch main con cadenza periodica (branch protetto) e ogni collaborare può crearsi un branch personale col proprio nome github per versionare o pushare soluzioni ad esercizi.
+Il repository ha un doppio obiettivo:
 
-Ogni volta che viene pubblicato qualcosa di nuovo, mi aspetto che tutti i branch figli facciano un merge o rebase.
+1. **Onboarding interno**: guidare i neo-assunti nella costruzione delle competenze necessarie a operare sullo stack Oracle.
+2. **Risorsa pubblica**: mettere a disposizione, su internet, materiale utile a chiunque voglia sviluppare competenze trasversali sulla tecnologia Oracle, in particolare Oracle Database, SQL, PL/SQL e APEX.
 
-Non so ancora se vale la pena suddividere i contenuti secondo una classicazione: begineer, intermediate, expert. 
-Inoltre per ogni lezione mi piacerebbe stimare il tempo necessaria per leggerla e assorbirla.
+## Struttura immaginata dei contenuti
 
-Ho una idea iniziale su come strutturare i contenuti. Vorrei lasciare a te il compito di elencare i contenuti principali e l'efforte necessario per studiarli. Io posso avere un'idea iniziale, ma probabilmente mi perdo qualcosa. Devi classificarli anche secondo un ordine naturale di assimilazioni di contenuti. Ad esempio: basi di dati relazionali, linguaggio sql (versione recente), linguaggio pl/sql, star-schema, fatti e dimensione, xml, json, servizi rest, ords, oracle apex, oracle db (istanza, sga, pga, tablespace, etc.), funzioni analitiche, json duality view, grafi, vettori, nozioni basi di oci cloud, stack iso, principi di networking, business intelligence, attività di ETL, docker, podman.
+Una struttura gerarchica in grado di ospitare formati diversi:
 
-Non voglio che tu inizi a sviluppare gli argomenti, mi serve struttura il syllabus (o l'indice).
+- lezioni
+- lab
+- tutorial
+- esercizi
+- link a risorse esterne
+- codice di esempio
 
-Oltre ad un elenco poi vorrei capire come declinare questi contenuti in un piano formativo sostenibile per diversi gradi di seniority (junior, intermidate, senior).
+Per ogni lezione si vorrebbe **stimare il tempo** necessario per leggerla e assimilarla.
 
-Radicle è un'azienda di sviluppo software, per cui le nozioni come networking sono nozioni di base utili, ma non sono il cuore principale dell'attività.
+## Modello di contribuzione
 
-La formazione dovrebbe avere sempre una parte teorica ed una più pratica dove sono previsti esercizi da fare.
+- I **trainer** pubblicano il materiale sul branch `main` con cadenza periodica. `main` è un branch protetto.
+- Ogni **collaboratore** può creare un branch personale, nominato secondo il proprio handle GitHub, su cui versionare e condividere le proprie soluzioni agli esercizi.
+- Ogni volta che viene pubblicato del nuovo materiale, i branch derivati dovrebbero allinearsi al ramo principale tramite merge o rebase.
 
-Questo repositpry deve essere pubblicato su Github come pubblico (accessibile a tutti).
+## Classificazione per livello
 
+Da valutare se introdurre una segmentazione dei contenuti per seniority:
+
+- **Beginner**
+- **Intermediate**
+- **Expert**
+
+In caso affermativo, ciascun contenuto andrà classificato anche in base al livello.
+
+## Argomenti da coprire
+
+Spunto iniziale dei temi rilevanti, da consolidare e completare:
+
+- basi di dati relazionali
+- linguaggio SQL (versione recente)
+- linguaggio PL/SQL
+- star-schema, fatti e dimensioni
+- XML, JSON
+- servizi REST, ORDS
+- Oracle APEX
+- Oracle Database: istanza, SGA, PGA, tablespace, ecc.
+- funzioni analitiche
+- JSON duality view
+- grafi
+- vettori
+- nozioni di base su OCI Cloud
+- stack ISO/OSI, principi di networking
+- business intelligence
+- attività di ETL
+- container: Docker, Podman
+
+L'elenco è una traccia iniziale: è probabile che alcuni argomenti rilevanti manchino. Servirà completarli e classificarli secondo un **ordine naturale di apprendimento**.
+
+## Profilo dell'azienda
+
+Radicle è un'azienda di **sviluppo software**. Nozioni come il networking restano utili come fondamentali, ma non rappresentano il cuore dell'attività e vanno dimensionate di conseguenza.
+
+## Approccio formativo
+
+Ogni unità di formazione dovrebbe articolarsi in due parti:
+
+- una **parte teorica**;
+- una **parte pratica** con esercizi da svolgere.
+
+## Vincoli operativi
+
+- Il repository è **pubblico** su GitHub, accessibile a tutti.
+- Il piano formativo dovrà essere **sostenibile** rispetto ai diversi gradi di seniority (junior, intermediate, senior).
+
+## Richiesta
+
+In questa fase non è richiesto lo sviluppo dei contenuti, ma la definizione della **struttura del syllabus** (l'indice). In particolare:
+
+1. l'elenco dei contenuti principali da coprire;
+2. una stima dell'effort necessario per studiarli;
+3. la classificazione secondo un ordine naturale di apprendimento;
+4. una proposta di declinazione del piano formativo per i tre livelli di seniority.

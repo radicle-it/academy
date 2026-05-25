@@ -1,6 +1,6 @@
 # Level 1: Foundations (year 1)
 
-![Level 1 roadmap: a climber ascending a mountain through three checkpoints (SQL 1Z0-071, PL/SQL 1Z0-149, APEX 2026), with Level 2 as the next peak above](../images/radicle-academy-level-1.jpg)
+![Level 1 roadmap: a climber ascending a mountain through three checkpoints (SQL 1Z0-071, PL/SQL 1Z0-149, APEX 2026), with Level 2 as the next peak above](../images/radicle-academy-level-1.png)
 
 Level 1 is the **mandatory foundation** every Radicler must complete during their first year. It covers the core Oracle stack we build on every day: SQL, PL/SQL, and APEX.
 

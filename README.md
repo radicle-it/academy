@@ -4,8 +4,6 @@ Welcome to **Radicle Academy**, and welcome to Radicle.
 
 If you are reading this, you have just joined [Radicle](https://www.radicle.it) as a **Radicler**. This repository is your starting point: it defines the training path every new Radicler is expected to follow, focused on the Oracle stack we build on every day.
 
-> Earlier planning notes about the broader academy (syllabus, domains, taxonomy) are preserved in [`planning/`](./planning). They are kept aside and will be revived once the certification path below is in flight.
-
 ## Step 1: Register on Oracle MyLearn
 
 Before anything else, create an account on **[Oracle MyLearn](https://mylearn.oracle.com)** using your **`@radicle.it` email address**. All training courses live there, and using your work email keeps your progress, badges, and exam vouchers tied to Radicle.
